@@ -36,6 +36,6 @@ fiver_form.onsubmit = (e) => {
         clearInterval(count)
     }
 
-output.innerHTML = `<h3 class="bg-success rounded text-white text-center py-3"> ${totalDay} days : ${hours} hours : ${min} minutes : ${sec} sec</h1>`  
+output.innerHTML = `<h3 class="bg-success rounded text-white text-center py-3"> ${totalDay} dafdsdfdsfys : ${hours} hours : ${min} minutes : ${sec} sec</h1>`  
   }, 1000);  
 }
