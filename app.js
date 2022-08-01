@@ -1,8 +1,12 @@
 const fiver_form=  document. getElementById('fiver-form');
 const output=  document.querySelector('.output');
 
+
+let count;
+
 fiver_form.onsubmit = (e) => {
     e.preventDefault()
+    clearInterval(count)
 
     // get form value
 
@@ -10,7 +14,7 @@ fiver_form.onsubmit = (e) => {
     const { date, time } = Object.fromEntries(form_data.entries())
     
    
-  let count = setInterval(() => {
+  count = setInterval(() => {
     // get time stamps
 
     let startTime  = Date.now()
